@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import '~bootstrap/dist/css/bootstrap.css';
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Hello {
+    color: blue;
 }
+
+
+.text-link{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+

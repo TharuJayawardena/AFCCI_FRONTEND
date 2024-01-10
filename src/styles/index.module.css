@@ -1,0 +1,23 @@
+.joinUsBtn {
+    width: 165px;
+    height: 45px;
+    background: #C0ECEC;
+    border: 1px solid #39BEC1;
+      border-radius: 24px;
+      padding: 4px 17px !important;
+      box-sizing: border-box;
+      background: #C0ECEC ;
+      font-style: normal;
+      font-weight: 400 !important;
+      font-size: 20px;
+      color: #000000;
+      text-align: center;
+      text-transform: none;
+  }
+  
+  .joinUsBtn:hover {
+      background: #D9CEE8;
+      border: 1px solid #6A489C;
+    }
+  
+  

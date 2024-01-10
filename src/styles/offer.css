@@ -1,0 +1,84 @@
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.Offer {
+    margin: 45px 0;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Offer h3 {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: center;
+}
+
+.Offer span {
+    color: #39BEC1;
+}
+
+.Offer h4 {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+}
+
+.Offer .content {
+    box-sizing: content-box;
+    padding: 30px;
+    margin: 40px 30px;
+    box-shadow: 0px 0 20px rgba(12, 2, 120, 0.42);
+    background: #ffffff;
+    min-height: 320px;
+    border-radius: 45px 0 45px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.Offer .content:hover {
+    background : linear-gradient(
+            to bottom right,
+            #0f038e,
+            #ffffff
+    );
+    color: #ffffff;
+    box-shadow: none;
+}
+
+
+.Offer .content span {
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 auto 15px auto;
+}
+.swiper {
+    border-radius: 5px;
+    width: 1000px;
+    height: 600px;
+  }
+
+@media (min-width: 768px) {
+    .Offer {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .Offer {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .Offer {
+        width: 1170px;
+    }
+}
