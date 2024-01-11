@@ -2,11 +2,22 @@ import React from 'react';
 import style from "../../styles/people.css"
 const PeopleSay = () => {
   const customStyle = {
+    '--delay': '-1s', // Set the value accordingly
+    // other styles...
+  };
+  const customStyle1 = {
+    '--delay': '0s', // Set the value accordingly
+    // other styles...
+  };
+  const customStyle2 = {
+    '--delay': '1s', // Set the value accordingly
+    // other styles...
+  };
+  const customStyle3 = {
     '--delay': '2s', // Set the value accordingly
     // other styles...
   };
   return (
-
     <div class="container mt-5">
       <div class="row">
         <div class="col-lg-6">
@@ -17,6 +28,7 @@ const PeopleSay = () => {
 
         </div>
         <div class="col-lg-6">
+          <div class="bd">
           <div class="wrapper">
             <div class="outer">
               <div class="card" style={customStyle}>
@@ -29,7 +41,7 @@ const PeopleSay = () => {
                 </div>
                 <a href="#">Follow</a>
               </div>
-              <div class="card" style={customStyle}>
+              <div class="card" style={customStyle1}>
                 <div class="content">
                   <div class="img"><img src="Avatar3.png" alt="" /></div>
                   <div class="details">
@@ -39,7 +51,7 @@ const PeopleSay = () => {
                 </div>
                 <a href="#">Follow</a>
               </div>
-              <div class="card" style={customStyle}>
+              <div class="card" style={customStyle2}>
                 <div class="content">
                   <div class="img"><img src="Avatar3.png" alt="" /></div>
                   <div class="details">
@@ -49,7 +61,7 @@ const PeopleSay = () => {
                 </div>
                 <a href="#">Follow</a>
               </div>
-              <div class="card" style={customStyle}>
+              <div class="card" style={customStyle3}>
                 <div class="content">
                   <div class="img"><img src="Avatar3.png" alt="" /></div>
                   <div class="details">
@@ -59,7 +71,7 @@ const PeopleSay = () => {
                 </div>
                 <a href="#">Follow</a>
               </div>
-              <div class="card" style={customStyle}>
+              <div class="card" style={customStyle3}>
                 <div class="content">
                   <div class="img"><img src="Avatar3.png" alt="" /></div>
                   <div class="details">
@@ -71,6 +83,7 @@ const PeopleSay = () => {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </div>
 

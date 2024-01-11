@@ -51,19 +51,19 @@ const Offer = () => {
                     <div className="swiper">
                         <div className="swiper-wrapper">
                             <OfferCard comment="Lorem ipsum dolor sit amet, nec ei eligendi comprehensam, vim inani splendide consetetur ea, nec ex virtute gubergren. Aliquam splendide mei in, te vivendum recusabo philosophia qui, dolor omnes utroque mea at. Fugit altera adolescens mea ad."
-                                        imagePath="abstract_720652 1.svg" designation="Buisness Setup"
+                                        imagePath="abstract_720652 1.svg" designation="Buisness Setup" readMore="Read More"
                                        />
                             <OfferCard comment="Lorem ipsum dolor sit amet, nec ei eligendi comprehensam, vim inani splendide consetetur ea, nec ex virtute gubergren. Aliquam splendide mei in, te vivendum recusabo philosophia qui, dolor omnes utroque mea at. Fugit altera adolescens mea ad."
-                                        imagePath="abstract_720652 1.svg" designation="Financial Clarity"
+                                        imagePath="abstract_720652 1.svg" designation="Financial Clarity" readMore="Read More"
                                       />
                             <OfferCard comment="Lorem ipsum dolor sit amet, nec ei eligendi comprehensam, vim inani splendide consetetur ea, nec ex virtute gubergren. Aliquam splendide mei in, te vivendum recusabo philosophia qui, dolor omnes utroque mea at. Fugit altera adolescens mea ad."
-                                        imagePath="abstract_720652 1.svg" designation="Buisness Setup"
+                                        imagePath="abstract_720652 1.svg" designation="Buisness Setup"  readMore="Read More"
                                         />
                             <OfferCard comment="Lorem ipsum dolor sit amet, nec ei eligendi comprehensam, vim inani splendide consetetur ea, nec ex virtute gubergren. Aliquam splendide mei in, te vivendum recusabo philosophia qui, dolor omnes utroque mea at. Fugit altera adolescens mea ad."
-                                        imagePath="abstract_720652 1.svg" designation="Financial Clarity"
+                                        imagePath="abstract_720652 1.svg" designation="Financial Clarity" readMore="Read More"
                                         />
                             <OfferCard comment="Lorem ipsum dolor sit amet, nec ei eligendi comprehensam, vim inani splendide consetetur ea, nec ex virtute gubergren. Aliquam splendide mei in, te vivendum recusabo philosophia qui, dolor omnes utroque mea at. Fugit altera adolescens mea ad." 
-                            imagePath="abstract_720652 1.svg" designation="Buisness Setup"
+                            imagePath="abstract_720652 1.svg" designation="Buisness Setup" readMore="Read More"
                                         />
                         </div>
                         <div className="swiper-pagination"></div>

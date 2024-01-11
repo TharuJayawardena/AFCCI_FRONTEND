@@ -19,7 +19,7 @@ export default function Explorer() {
   ];
 
   return (
-    <div style={carouselStyle}>
+    <div className="mt-0" style={carouselStyle}>
       <Carousel indicators={false}>
         {items.map((item, i) => (
           <Item key={i} item={item} />
@@ -33,26 +33,28 @@ const Item = (props) => {
   
   return (
   
+  <Card >
+  <CardMedia
+    className="d-flex align-items-center"
     
-    <Card>
-      <CardMedia
-        className="d-flex align-items-center"
-        
-        image={props.item.img}
-        alt="main carousel image"
-        style={{ height: "600px"}}
-      >
-        <div>
-          <p  style={{ marginRight:"400px",marginLeft:"400px", fontSize: "75px", fontWeight: "500", color: "#FFFFFF" }}>
-            Explore Our Journey
-          </p>
-          <p className = "items-center" style={{ fontSize: "15px", fontWeight: "80", color: "#FFFFFF"}}>
-            Immerse yourself in our journey,achiEvements,and client stories
-          </p>
-        
-        </div>
-      </CardMedia>
-    </Card>
+    image={props.item.img}
+    alt="main carousel image"
+    style={{ height: "600px"}}
+  >
+    <div>
+      <p className = "items-center" style={{ marginRight:"400px",marginLeft:"400px", fontSize: "60px", fontWeight: "500", color: "#FFFFFF" }}>
+        Explore Our Journey
+      </p>
+      <p className = "items-center" style={{ fontSize: "15px", fontWeight: "80", color: "#FFFFFF"}}>
+        Immerse yourself in our journey,achiEvements,and client stories
+      </p>
+    
+    </div>
+  </CardMedia>
+</Card>
+  
+    
+    
     
     
   );
