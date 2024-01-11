@@ -76,12 +76,12 @@ const Footer = () => {
                     </Column>
                     <Column>
                         <Heading>Subscribe</Heading>
-                        <p style={{ color: "#fff", fontSize: "9px", fontWeight: "5px" }}>Join our newsletter to stay up to date on features and releases</p>
+                        <p style={{ color: "#fff", fontSize: "10px", fontWeight: "5px" }}>Join our newsletter to stay up to date on features and releases</p>
                         <form style={{ width: "50%", display: "flex", alignItems: "center" }}>
                             <input type="text" />
                             <button class="btn-1" style={{ marginLeft: "10px" }}>Subscribe</button>
                         </form>
-                        <p class="mt-3" style={{ color: "#fff", fontSize: "9px", fontWeight: "5px", }}>By subscribing you agree to our privacy policies and provide contet <p>to recive updates from our company</p></p>
+                        <p class="mt-3" style={{ color: "#fff", fontSize: "10px", fontWeight: "5px", }}>By subscribing you agree to our privacy policies and provide contet <p>to recive updates from our company</p></p>
                     </Column>
                 </Row>
 
@@ -102,10 +102,10 @@ const Footer = () => {
                         <div className="col-md-10">
 
                             <div className="d-flex">
-                                <p style={{ color: "#ffff", fontSize: "9px", marginLeft: "10px" }}>2023 7Needle.All right recived.</p>
-                                <p style={{ color: "#ffff", fontSize: "9px", marginLeft: "10px" }}>Privacy Policies</p>
-                                <p style={{ color: "#ffff", fontSize: "9px", marginLeft: "10px" }}>Terms of Service</p>
-                                <p style={{ color: "#ffff", fontSize: "9px", marginLeft: "10px" }}>Cookies settings</p>
+                                <p style={{ color: "#ffff", fontSize: "10px", marginLeft: "10px" }}>2023 7Needle.All right recived.</p>
+                                <p style={{ color: "#ffff", fontSize: "10px", marginLeft: "10px" }}>Privacy Policies</p>
+                                <p style={{ color: "#ffff", fontSize: "10px", marginLeft: "10px" }}>Terms of Service</p>
+                                <p style={{ color: "#ffff", fontSize: "10px", marginLeft: "10px" }}>Cookies settings</p>
                             </div>
                         </div>
                         <div className="col-md-2">

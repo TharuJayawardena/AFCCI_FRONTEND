@@ -2,20 +2,20 @@ import React from 'react';
 import style from "../../styles/people.css"
 const PeopleSay = () => {
   const customStyle = {
-    '--delay': '-1s', // Set the value accordingly
-    // other styles...
+    '--delay': '-1s', 
+    
   };
   const customStyle1 = {
-    '--delay': '0s', // Set the value accordingly
-    // other styles...
+    '--delay': '0s', 
+  
   };
   const customStyle2 = {
-    '--delay': '1s', // Set the value accordingly
-    // other styles...
+    '--delay': '1s', 
+    
   };
   const customStyle3 = {
-    '--delay': '2s', // Set the value accordingly
-    // other styles...
+    '--delay': '2s', 
+    
   };
   return (
     <div class="container mt-5">
