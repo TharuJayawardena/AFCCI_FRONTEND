@@ -32,22 +32,22 @@ const Header = () => {
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item active">
-                                        <a style={{ marginLeft: "80px" }} class="nav-link" href="#">Home</a>
+                                        <a style={{ marginLeft: "60px" }} class="nav-link" href="#">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a style={{ marginLeft: "80px" }} class="nav-link" href="#">About Us</a>
+                                        <a style={{ marginLeft: "60px" }} class="nav-link" href="#">About Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a style={{ marginLeft: "80px" }} class="nav-link" href="#">Services</a>
+                                        <a style={{ marginLeft: "60px" }} class="nav-link" href="#">Services</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a style={{ marginLeft: "80px" }} class="nav-link" href="#">Knowledge Hub</a>
+                                        <a style={{ marginLeft: "60px" }} class="nav-link" href="#">Knowledge Hub</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a style={{ marginLeft: "80px" }} class="nav-link" href="#">Careers</a>
+                                        <a style={{ marginLeft: "60px" }} class="nav-link" href="#">Careers</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a style={{ marginLeft: "80px" }} class="nav-link" href="#">Contact Us</a>
+                                        <a style={{ marginLeft: "60px" }} class="nav-link" href="#">Contact Us</a>
                                     </li>
                                 </ul>
                                 <div class="d-flex">
