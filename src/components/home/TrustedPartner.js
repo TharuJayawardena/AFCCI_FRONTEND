@@ -5,7 +5,7 @@ const TrustedPartner = () => {
 
         <div class="container mt-5 mb-5">
             <div class="text-center">
-                <h2>Our Trusted <span>Partners</span></h2>
+                <p style={{fontSize:"30px", fontWeight:"10px"}}><b>Our Trusted</b><span style={{color:"#0a98ff"}}><b> Partners</b></span></p>
                 <p>Explore the successful colobaration with our esteemed clients who have choosen <p>ACCFIN for thier buisness needs</p></p>
             </div>
             <div className='justify-align-items-center'>

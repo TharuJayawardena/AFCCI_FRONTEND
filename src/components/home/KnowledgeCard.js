@@ -32,8 +32,8 @@ export default function KnowledgeCard(props = {
                         habitant morbi tristique senectus
                     </Typography>
 
-                    <Typography gutterBottom size="10px" component="div" color="#6A489C">
-                        Read more
+                    <Typography gutterBottom size="10px" fontSize="12px" component="div" color="#4e8fbe" className="mt-3">
+                        <b>Read more</b>
                     </Typography>
 
                 </div>

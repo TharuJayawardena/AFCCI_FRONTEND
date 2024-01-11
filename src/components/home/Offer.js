@@ -1,4 +1,5 @@
 import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import styles from '../../../src/styles/offer.css';
 import  {useEffect, useState} from 'react';
 import {Grid} from "@mui/material";
@@ -36,10 +37,10 @@ const Offer = () => {
     }, []);
     return (
         <div className='container mt-5'>
-        <div id="Offer" className={styles.Offer}>
+        <div id="Offers" className={styles.Offers}>
             <div className='text-center'>
-                <h6>What We Offer</h6>
-                <h2 className='mt-2'>Our Comphrehensive <span color='#80000'>Services</span></h2>
+                <h6><span style={{color: "#005ea2"}}><b>What We Offer</b></span></h6>
+                <p style={{fontSize:"30px", fontWeight:"10px"}}><b>Our Comphrehensive</b><span style={{color:"#0a98ff"}}><b> Services</b></span></p>
                 <p>Empowering Buisness with tailored soulutions, AccFin ensures success through expert guidens,
                     precision, and <p>unwavering support</p>
                 </p>

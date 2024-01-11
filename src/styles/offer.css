@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.Offer {
+.Offers {
     margin: 45px 0;
     padding-bottom: 20px;
     padding-right: 15px;
@@ -10,7 +10,7 @@
     margin-left: auto;
 }
 
-.Offer h3 {
+.Offers h3 {
     margin: 0;
     font-size: 35px;
     font-weight: 400;
@@ -18,11 +18,11 @@
     text-align: center;
 }
 
-.Offer span {
+.Offers span {
     color: #39BEC1;
 }
 
-.Offer h4 {
+.Offers h4 {
     margin: 0;
     font-size: 35px;
     font-weight: 700;
@@ -30,7 +30,7 @@
     text-align: center;
 }
 
-.Offer .content {
+.Offers .content {
     box-sizing: content-box;
     padding: 30px;
     margin: 40px 30px;
@@ -44,10 +44,10 @@
     transition: 0.3s;
 }
 
-.Offer .content:hover {
+.Offers .content:hover {
     background : linear-gradient(
             to bottom right,
-            #0f038e,
+            #01406f,
             #ffffff
     );
     color: #ffffff;
@@ -55,7 +55,7 @@
 }
 
 
-.Offer .content span {
+.Offers .content span {
     text-align: left;
     font-weight: 600;
     font-size: 14px;

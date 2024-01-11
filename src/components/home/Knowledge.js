@@ -5,8 +5,8 @@ const Knowledge = () => {
 
         <div class="container mt-5 mb-5">
             <div class="text-center">
-                <h6>Unlock Insights</h6>
-                <h2>Knowledge <span>Hub</span></h2>
+                <h6 style={{color:"#166caa"}}><b>Unlock Insights</b></h6>
+                <p style={{fontSize:"30px", fontWeight:"10px"}}><b>Knowledge</b><span style={{color:"#0a98ff"}}><b> Hub</b></span></p>
                 <p>Explore our repostry of valubele insighs and resources to stay informed and empowered<p>in your buisness journey</p></p>
             </div>
 <div className="row justify-content-center">
