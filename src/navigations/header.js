@@ -35,7 +35,7 @@ const Header = () => {
                     
                     <a href="#"><i class="fa fa-fw fa-search"></i></a>
     
-                    <button type="button" class="btn btn-primary">Inquire Now</button>
+                    <button type="button" class="btn ">Inquire Now</button>
                 </div>
             </nav>
 

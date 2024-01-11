@@ -8,37 +8,39 @@ const TrustedPartner = () => {
                 <h2>Our Trusted <span>Partners</span></h2>
                 <p>Explore the successful colobaration with our esteemed clients who have choosen <p>ACCFIN for thier buisness needs</p></p>
             </div>
+            <div className='justify-align-items-center'>
             <div class="row mt-5">
-                <div class="col">
+                <div class="col-lg-2 col-md-4">
                     <div class="d-md-flex">
                         <img src="Group 6.svg" width="100px" height="100px" />                    
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-2 col-md-4">
                     <div class="d-md-flex">
                         <img src="Group 1.svg" width="100px" height="100px" />                       
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-2 col-md-4">
                     <div class="d-md-flex">
                         <img src="Group 3.svg" width="100px" height="100px" />                      
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-2 col-md-4">
                     <div class="d-md-flex">
                         <img src="Group 5.svg" width="100px" height="100px" />                        
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-2 col-md-4">
                     <div class="d-md-flex">
                         <img src="Group 7.svg" width="100px" height="100px" />                        
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-2 col-md-4">
                     <div class="d-md-flex">
                         <img src="Group 4.svg" width="100px" height="100px" />                       
                     </div>
                 </div>
+            </div>
             </div>
         </div>
 

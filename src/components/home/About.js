@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../../styles/button.css';
 const About = () => {
     return (
        
@@ -28,7 +28,7 @@ vim inani splendide consetetur ea, nec ex virtute
                                                         utroque mea at. Fugit altera
                                                         adolescens mea ad.
                </p>
-               <button type="button" class="btn btn-primary">Primary</button>
+               <button type="button" class="btn mt-5">About Us</button>
               </div>
             </div>
           </div>

@@ -12,14 +12,14 @@ const Knowledge = () => {
 <div className="row justify-content-center">
 
    
-   <div className=' col-sm-3 col-md-3'>
+   <div className=' col-lg-3 col-md-4'>
         <KnowledgeCard imgPath="copy2.png"/>
     </div>
 
-    <div className='col-sm-3 col-md-3'>
+    <div className='col-lg-3 col-md-4'>
         <KnowledgeCard imgPath="buisness.png"/>
     </div>
-    <div className='col-sm-3 col-md-3'>
+    <div className='col-lg-3 col-md-4'>
         <KnowledgeCard imgPath="women.png"/>
     </div>
    
@@ -28,7 +28,7 @@ const Knowledge = () => {
 
 
 <div class="d-flex justify-content-center">
-<button type="button" class=" btn btn-primary mt-5">View All</button>
+<button type="button" class=" btn mt-5">View All</button>
 </div>
 </div>
 

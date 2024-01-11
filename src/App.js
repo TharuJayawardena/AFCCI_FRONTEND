@@ -23,7 +23,7 @@ const App = () => {
       <PeopleSay />
       <TrustedPartner />
       <Knowledge />
-      {/* <Footer /> */}
+      <Footer />
       {/* Add other components and content for your application */}
     </div>
   );

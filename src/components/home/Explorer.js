@@ -30,18 +30,19 @@ export default function Explorer() {
 }
 
 const Item = (props) => {
+  
   return (
   
-     
+    
     <Card>
       <CardMedia
         className="d-flex align-items-center"
         
         image={props.item.img}
         alt="main carousel image"
-        style={{ height: "600px" }}
+        style={{ height: "600px"}}
       >
-        <div >
+        <div>
           <p  style={{ marginRight:"400px",marginLeft:"400px", fontSize: "75px", fontWeight: "500", color: "#FFFFFF" }}>
             Explore Our Journey
           </p>
@@ -52,6 +53,7 @@ const Item = (props) => {
         </div>
       </CardMedia>
     </Card>
+    
     
   );
 };

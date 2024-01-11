@@ -3,11 +3,11 @@ import React from 'react';
 const Icons = () => {
     return (
 
-        <div class="container mt-5">
+        <div class="container mt-4 mb-5">
             <div class="row">
                 <div class="col">
                     <div class="d-md-flex">
-                        <img src="rocket.svg" width="50px" height="50px" />
+                        <img src="rocket.svg" width="60px" height="60px" />
                         <div>
                             <div>89+</div>
                             <div>Buisness busted</div>
@@ -16,7 +16,7 @@ const Icons = () => {
                 </div>
                 <div class="col">
                     <div class="d-md-flex">
-                        <img src="world.svg" width="50px" height="50px" />
+                        <img src="world.svg" width="60px" height="60px" />
                         <div>
                             <div>89+</div>
                             <div>Buisness busted</div>
@@ -25,7 +25,7 @@ const Icons = () => {
                 </div>
                 <div class="col">
                     <div class="d-md-flex">
-                        <img src="trophy.svg" width="50px" height="50px" />
+                        <img src="trophy.svg" width="60px" height="60px" />
                         <div>
                             <div>89+</div>
                             <div>Buisness busted</div>
@@ -34,7 +34,7 @@ const Icons = () => {
                 </div>
                 <div class="col">
                     <div class="d-md-flex">
-                        <img src="user.svg" width="50px" height="50px" />
+                        <img src="user.svg" width="60px" height="60px" />
                         <div>
                             <div>89+</div>
                             <div>Buisness busted</div>
